@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/app.css">
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <title>Hoàn thành xong bài thi</title>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1>Điểm của bạn là:</h1>
+            <h1 id="finalScore"></h1>
+            <form>
+                <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Hãy điền họ tên"
+                />
+                <button
+                type="submit"
+                class="btn"
+                id="saveScoreBtn"
+                onclick="saveHighScore(event)"
+                disabled
+                >
+                Lưu bài thi
+            </button>
+            </form>
+            <a href="./main.html" class="btn">Tham gia lại</a>
+            <a href="./highscores.html" class="btn">Xem thành tích</a>
+            <a href="./index.html" class="btn">Trở về trang chủ</a>
+        </div>
+    </div>
+    <script src="./js/end.js"></script>
+</body>
+</html>

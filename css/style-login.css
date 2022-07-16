@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700,900");
+:root {
+  --success-color: #2691d9;
+  --error-color: #e74c3c;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(120deg, #3ca7ee, #9b408f);
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  padding: 40px;
+}
+.container h1 {
+  text-align: center;
+}
+.form-control {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #adadad;
+}
+.form-control span {
+  position: absolute;
+  border-bottom: 3px solid var(--success-color);
+  top: 39px;
+  left: 0;
+  width: 0%;
+  transition: 0.3s;
+}
+.form-control input:focus ~ span {
+  width: 100%;
+}
+.form-control.error small {
+  color: var(--error-color);
+}
+.form-control.error input {
+  border-bottom: 2px solid var(--error-color);
+}
+#myButton {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: var(--success-color);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#myButton:hover {
+  background: #0869aa;
+}
+.signup-link {
+  text-align: center;
+  font-size: 14px;
+  color:red;
+}
+a {
+  color: white;
+  font-color: white;
+}

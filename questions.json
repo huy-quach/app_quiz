@@ -1,0 +1,92 @@
+[ 
+    {
+        
+        "question":"Commercial builders downplayed __________ a bust in the superheated housing market.",
+        "choice1": "the concern of",
+        "choice2": "concerned that",
+        "choice3": "concerning",
+        "choice4" :"concerns about",
+        "answer": 4
+    },
+    {
+        
+        "question":"The software developers __________ investigated the latest problem.",
+        "choice1": "are just",
+        "choice2": "have already",
+        "choice3": "still",
+        "choice4" :"have yet",
+        "answer": 2
+    },
+    {
+        
+        "question":"While the stock ________ the staff worked in the evenings.",
+        "choice1": "was checked",
+        "choice2": "has been checked",
+        "choice3": "check",
+        "choice4" :"was being checked",
+        "answer": 4
+    },
+    {
+        
+        "question":"My line manager wants the meeting __________ immediately.",
+        "choice1": "arrange",
+        "choice2": "arranged",
+        "choice3": "be arranged",
+        "choice4" :"to arrange",
+        "answer": 2
+    },
+    {
+        
+        "question":"All the orders got _________ on schedule.",
+        "choice1": "delivering",
+        "choice2": "delivered",
+        "choice3": "to deliver",
+        "choice4" :"to be deliver",
+        "answer": 2
+    },
+    {
+        
+        "question":"________ the end of year results were published, the managers got their bonuses.",
+        "choice1": "When",
+        "choice2": "While",
+        "choice3": "If",
+        "choice4" :"Then",
+        "answer": 1
+    },
+    {
+        
+        "question":"The company expects to see ___________ breakeven and a 15 cent a share loss in the second quarter.",
+        "choice1": "approximately",
+        "choice2": "more than",
+        "choice3": "more or less",
+        "choice4" :"somewhere between",
+        "answer": 4
+    },
+    {
+        
+        "question":"The flight arrives __________ Tokyo in three hours.",
+        "choice1": "in",
+        "choice2": "at",
+        "choice3": "into",
+        "choice4" :"on",
+        "answer": 1
+    },
+    {
+        
+        "question":"Property taxes ________ about 40 percent of the overall tax revenue the state collects.",
+        "choice1": "make",
+        "choice2": "are at least",
+        "choice3": "are raised by",
+        "choice4" :"account for",
+        "answer": 4
+    },
+    {
+        
+        "question":"He is excited about the new promotion and looking forward to ________ more responsibilities.",
+        "choice1": "taking on",
+        "choice2": "take on",
+        "choice3": "getting up",
+        "choice4" :"taking in",
+        "answer": 1
+    }
+]
